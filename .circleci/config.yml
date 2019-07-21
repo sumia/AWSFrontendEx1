@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Branch name
-          command: echo "${CIRCLE_BRANCH}"
+          command: echo "Sumia's Project"
       - run:
           name: Install awscli
           command: sudo pip install awscli
